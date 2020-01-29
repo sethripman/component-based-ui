@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './App.css';
 
 export default class Header extends Component {
   render() {
@@ -18,4 +19,4 @@ export default class Header extends Component {
       </header>
     );
   }
-};
+}
