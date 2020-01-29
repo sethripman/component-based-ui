@@ -10,7 +10,13 @@ export default class App extends Component {
         <Header />
         <Footer />
         <Character
-          name
+          name="Baby Legs"
+          imgSrc="https://rickandmortyapi.com/api/character/avatar/29.jpeg"
+          status="Alive"
+          species="Human, Human with baby legs"
+          gender="Male"
+          origin="unknown"
+          lastLocation="Interdimensional Cable"
         />
       </>
     );
