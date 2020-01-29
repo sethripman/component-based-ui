@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styles from './App.css';
+import CharacterImage from './CharacterImage';
+import CharacterInfo from './CharacterInfo';
 
 export default class Character extends Component {
   render() {
@@ -7,8 +8,23 @@ export default class Character extends Component {
 
     return (
       <>
-        <dt>{title}</dt>
-        <dd>{description}</dd>
+        <CharacterImage
+        
+        />
+        <CharacterInfo
+
+        />
+        {/* <dl>
+          <DataListElement
+            title="Name"
+            description={name} />
+          <DataListElement
+            title="Age"
+            description={age} />
+          <DataListElement
+            title="Weight"
+            description={weight} />
+        </dl> */}
       </>
     )
   }
