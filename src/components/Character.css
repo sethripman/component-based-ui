@@ -3,6 +3,8 @@
 }
 
 .imageWrapper {
+  display: flex;
+  flex-direction: column;
   margin: 10px;
   
   h2 {
