@@ -1,4 +1,6 @@
-class Footer extends Component {
+import React, { Component } from 'react';
+
+export default class Footer extends Component {
   render() {
     return (
       <footer className={styles.Footer}>
