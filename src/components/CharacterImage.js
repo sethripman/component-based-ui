@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import styles from './App.css';
+import PropTypes from 'prop-types';
+import styles from './Character.css';
 
 export default class CharacterImage extends Component {
+  static propTypes = {
+    imgSrc:PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
+  }
+
   render() {
     const { imgSrc, name } = this.props;
 
