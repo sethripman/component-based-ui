@@ -13,9 +13,13 @@ export default class Character extends Component {
           imgSrc={imgSrc}
         />
         <CharacterInfo
-
+          status={status}
+          species={species}
+          gender={gender}
+          origin={origin}
+          lastLocation={lastLocation}
         />
       </>
-    )
+    );
   }
 }

@@ -7,9 +7,11 @@ export default class CharacterImage extends Component {
 
     return (
       <>
-        <img src={imgSrc} />
-        <h2>{name}</h2>
+        <div className="imagewrapper">
+          <img src={imgSrc} />
+          <h2>{name}</h2>
+        </div>
       </>
-    )
+    );
   }
 }
