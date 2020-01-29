@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 .imageWrapper {
   margin: 10px;
   
@@ -5,7 +9,7 @@
     color: rgb(245, 245, 245);
     font-size: 1.625rem;
   }
-  
+
   img {
         width: 100%;
         height: auto;

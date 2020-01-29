@@ -19,25 +19,25 @@ export default class CharacterInfo extends Component {
         <div className="infowrapper">
           <ul>
             <li>
-              <span>STATUS</span>
-            <p>{status}</p>
-            </li> <br/>
+              <span className={styles.left} >Status</span>
+              <span className={styles.right} >{status}</span>
+            </li> <br />
             <li>
-            <span>SPECIES</span>
-            <p>{species}</p>
-            </li> <br/>
+              <span className={styles.left} >Species</span>
+              <span className={styles.right} >{species}</span>
+            </li> <br />
             <li>
-            <span>GENDER</span>
-            <p>{gender}</p>
-            </li> <br/>
+              <span className={styles.left} >Gender</span>
+              <span className={styles.right} >{gender}</span>
+            </li> <br />
             <li>
-            <span>ORIGIN</span>
-            <p>{origin}</p>
-            </li> <br/>
+              <span className={styles.left} >Origin</span>
+              <span className={styles.right} >{origin}</span>
+            </li> <br />
             <li>
-            <span>LAST LOCATION</span>
-            <p>{lastLocation}</p>
-            </li> <br/>
+              <span className={styles.left} >Last Location</span>
+              <span className={styles.right} >{lastLocation}</span>
+            </li> <br />
           </ul>
         </div>
       </>

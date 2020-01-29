@@ -12,12 +12,14 @@ export default class CharacterImage extends Component {
     const { imgSrc, name } = this.props;
 
     return (
-      <>
         <div className="imagewrapper">
-          <img src={imgSrc} />
-          <h2>{name}</h2>
+          <div style={{ position: 'relative' }}>
+            <img src={imgSrc} />
+            <div className={styles.banner}>
+              <h2>{name}</h2><br />
+            </div>
+          </div>
         </div>
-      </>
     );
   }
 }
