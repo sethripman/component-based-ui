@@ -4,12 +4,12 @@ import CharacterInfo from './CharacterInfo';
 
 export default class Character extends Component {
   render() {
-    const { title, description } = this.props;
+    const { name, imageSrc, status, species, gender, origin, lastLocation } = this.props;
 
     return (
       <>
         <CharacterImage
-        
+          imgSrc=""
         />
         <CharacterInfo
 
